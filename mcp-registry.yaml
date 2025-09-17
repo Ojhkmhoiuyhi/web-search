@@ -1,0 +1,16 @@
+args:
+- npm
+- run
+- build
+- "&&"
+- node
+- dist/index.js
+command: npx
+config_schema: 
+description: web search the internet
+env: 
+license: ''
+owner: pskill9
+package: web-search
+server_name: web-search
+vendor: Cprime
